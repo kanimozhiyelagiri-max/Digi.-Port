@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanimozhi D - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    Kanimozhi D - Department of Computer Application
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am <b>Kanimozhi</b> from the Department of Computer Application.  
+      I have completed my school in <b>Model School, Tirupattur</b>.</p>
+    </div>
+  </section>
+  
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <div class="card">
+      <ul>
+        <li>Singing</li>
+        <li>Dancing</li>
+        <li>Drawing</li>
+      </ul>
+      <a href="javascript:void(0)" class="btn" onclick="showAlert()">Click Me</a>
+    </div>
+  </section>
+  
+  <footer>
+    &copy; 2025 Kanimozhi D | Portfolio
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
